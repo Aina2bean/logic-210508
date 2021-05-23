@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*=== 入力フォーム ===*/
+
+#form-box {
+    margin-top: 10px;
+}
+
+/*=== 出力結果 ===*/
+
+.result {
+    position: relative;
+    width: 50%;
+    border: 4px double #0b53a5;
+    padding: 20px;
+}
+
+.result li {
+    list-style-type: none;
+}
+
+.result::before {
+    position: absolute;
+    content: "出力結果！";
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Meirio';
+    top: -15px;
+    color: #0b53a5;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.result .bow3 {
+    font-weight: bold;
+}
+
+/*=== エラーメッセージ ===*/
+
+.error {
+    color: red;
+}
